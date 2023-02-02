@@ -34,5 +34,6 @@ module.exports = {
     'no-unused-vars': 0,
     'react/jsx-props-no-spreading': 0,
     'react/jsx-no-useless-fragment': 0,
+    'no-useless-return': 0,
   },
 };

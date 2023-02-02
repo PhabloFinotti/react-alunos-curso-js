@@ -10,6 +10,7 @@ import {
   AlunoContainer,
   AlunoInfo,
   ProfilePicture,
+  NovoAluno,
 } from './styled';
 import axios from '../../services/axios';
 
@@ -65,7 +66,7 @@ export default function Alunos() {
     <Container>
       <Loading isLoading={isLoading} />
       <h1>Alunos</h1>
-
+      <NovoAluno to="/aluno/">Novo Aluno</NovoAluno>
       {alunos.map((aluno, index) => (
         <AlunoContainer className="alunoContainer" key={String(aluno.id)}>
           <div>
